@@ -32,7 +32,7 @@ if not os.path.exists(UPLOAD_FOLDER):
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
-# Ensure Flask correctly serves static files
+# Ensure Flask correctly serves sttatic files
 app._static_folder = os.path.abspath("static")
 
 # Database Configuration

@@ -197,7 +197,7 @@ input[type="file"] {
                     </td>
                     <td>{{ project.start_time.strftime('%Y-%m-%d %H:%M:%S') if project.start_time else 'Not Started' }}</td>
                     <td>{{ project.end_time.strftime('%Y-%m-%d %H:%M:%S') if project.end_time else 'Not Set' }}</td>
-                    <!-- Calculate Duration in Hours and Minutes -->
+                    <!-- Calculate Duration in Hours and Minutes     -->
                     <td>
                     {% if project.start_time and project.end_time %}
                     {% set duration = (project.end_time - project.start_time).total_seconds() / 60 %}
