@@ -1,4 +1,4 @@
-# Employee Productivity Management Platform
+# Employee Productivity Platform
 
 ## Project Overview
 This web-based platform is designed to help administrators manage employee projects, track productivity, and analyze performance using graphs and charts. The platform streamlines project management, enhances employee productivity, and provides valuable insights for administrators.
